@@ -1,0 +1,26 @@
+$font-path: "~node_modules/@digi/arbetsformedlingen/dist/digi-arbetsformedlingen/fonts/src/assets/fonts/" !default;
+@import "@digi/arbetsformedlingen/dist/digi-arbetsformedlingen/fonts/src/fonts.scss";
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.checklist-task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 4px 0;
+  border-top: 1px solid #dedede;
+}
